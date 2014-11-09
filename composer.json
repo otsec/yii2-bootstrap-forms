@@ -1,0 +1,25 @@
+{
+    "name": "otsec/yii2-bootstap-forms",
+    "keywords": ["yii2", "bootstrap", "forms"],
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/otsec/yii2-bootstap-forms/issues?state=open",
+        "source": "https://github.com/otsec/yii2-bootstap-forms"
+    },
+    "authors": [
+        {
+            "name": "Artem Belov",
+            "email": "razor2909@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "otsec\\yii2\\bootstap\\": "/"
+        }
+    }
+}
