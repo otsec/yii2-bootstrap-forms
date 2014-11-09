@@ -1,6 +1,6 @@
 <?php
 
-namespace otsec\yii2\bootsrap;
+namespace otsec\yii2\bootstrap;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;

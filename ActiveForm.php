@@ -1,6 +1,6 @@
 <?php
 
-namespace otsec\yii2\bootsrap;
+namespace otsec\yii2\bootstrap;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
@@ -14,7 +14,7 @@ class ActiveForm extends yii\bootstrap\ActiveForm
     /**
      * @inheritdoc
      */
-    public $fieldClass = 'otsec\yii2\bootsrap\ActiveField';
+    public $fieldClass = 'otsec\yii2\bootstrap\ActiveField';
     /**
      * @inheritdoc
      */

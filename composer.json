@@ -1,11 +1,11 @@
 {
-    "name": "otsec/yii2-bootstap-forms",
+    "name": "otsec/yii2-bootstrap-forms",
     "keywords": ["yii2", "bootstrap", "forms"],
     "type": "yii2-extension",
     "minimum-stability": "dev",
     "support": {
-        "issues": "https://github.com/otsec/yii2-bootstap-forms/issues?state=open",
-        "source": "https://github.com/otsec/yii2-bootstap-forms"
+        "issues": "https://github.com/otsec/yii2-bootstrap-forms/issues?state=open",
+        "source": "https://github.com/otsec/yii2-bootstrap-forms"
     },
     "authors": [
         {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "otsec\\yii2\\bootstap\\": "/"
+            "otsec\\yii2\\bootstrap\\": "/"
         }
     }
 }
