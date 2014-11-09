@@ -30,7 +30,7 @@ class ActiveForm extends \yii\bootstrap\ActiveForm
             'horizontalCssClasses' => [
                 'label' => 'col-sm-2',
                 'offset' => 'col-sm-offset-2 col-sm-10',
-                'hint' => 'col-sm-10 col-md-6',
+                'hint' => 'col-sm-offset-2 col-sm-10 col-md-6',
                 'wrapper' => 'col-sm-10 col-md-6',
             ],
             'horizontalSizes' => [
