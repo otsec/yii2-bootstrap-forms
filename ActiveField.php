@@ -9,7 +9,7 @@ use yii\helpers\Html;
  * Class ActiveField
  * @author Artem Belov <razor2909@gmail.com>
  */
-class ActiveField extends yii\bootstrap\ActiveField
+class ActiveField extends \yii\bootstrap\ActiveField
 {
     /**
      * @var array

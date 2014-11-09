@@ -9,7 +9,7 @@ use yii\helpers\Html;
  * Class ActiveForm
  * @author Artem Belov <razor2909@gmail.com>
  */
-class ActiveForm extends yii\bootstrap\ActiveForm
+class ActiveForm extends \yii\bootstrap\ActiveForm
 {
     /**
      * @inheritdoc
