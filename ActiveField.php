@@ -41,6 +41,28 @@ class ActiveField extends \yii\bootstrap\ActiveField
     }
 
     /**
+     * Renders a static control with a plain tex.
+     *
+     * @param array $options the tag options in terms of name-value pairs. These will be rendered as
+     * the attributes of the resulting tag. The values will be HTML-encoded using [[Html::encode()]].
+     *
+     * If you set a custom `id` for the input element, you may need to adjust the [[$selectors]] accordingly.
+     *
+     * @return static the field object itself
+     */
+    public function plain($options = [])
+    {
+        $options = array_merge($this->inputOptions, $options);
+
+        $tag = ArrayHelper::remove($options, 'tag', 'p');
+        Html::addCssClass($options, 'form-control-static');
+
+        $this->parts['{input}'] = Html::tag($tag, Html::getAttributeValue($this->model, $this->attribute), $options);
+
+        return $this;
+    }
+
+    /**
      * @param string $size
      * @return static
      */
